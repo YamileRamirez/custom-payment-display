@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { ArrowLeft, Home, Clock, Edit2 } from "lucide-react";
+import { ArrowLeft, User, Clock, Edit2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
@@ -30,7 +30,7 @@ export const TransferReview = () => {
             <p className="text-sm text-muted-foreground">To</p>
             <div className="flex items-center space-x-3">
               <div className="w-6 h-6 bg-success rounded p-1">
-                <Home className="w-4 h-4 text-success-foreground" />
+                <User className="w-4 h-4 text-success-foreground" />
               </div>
               <Input
                 value={recipientName}
