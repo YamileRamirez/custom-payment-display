@@ -8,42 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Light theme matching the mobile app design */
-    --background: 0 0% 98%;
-    --foreground: 0 0% 15%;
+    /* Dark theme matching the mobile app design */
+    --background: 0 0% 6%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 15%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 15%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 144 59% 40%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 120 100% 50%;
+    --primary-foreground: 0 0% 6%;
 
-    --secondary: 210 11% 96%;
-    --secondary-foreground: 0 0% 15%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 11% 96%;
-    --muted-foreground: 0 0% 45%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 60%;
 
-    --accent: 144 59% 40%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 120 100% 50%;
+    --accent-foreground: 0 0% 6%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 144 59% 40%;
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 120 100% 50%;
 
     --radius: 0.75rem;
 
     /* Custom banking UI tokens */
-    --success: 144 59% 40%;
-    --success-foreground: 0 0% 100%;
+    --success: 120 100% 50%;
+    --success-foreground: 0 0% 6%;
     --info: 200 100% 50%;
-    --info-foreground: 0 0% 100%;
+    --info-foreground: 0 0% 6%;
 
     --sidebar-background: 0 0% 98%;
 
